@@ -1,0 +1,1 @@
+import{a as e,n as t,r as n,t as r}from"./firestore-CA1vDfQG.js";function i(n,i,a,o){return t(e(r,`users`,n,`lists`,i),e=>{let t=e.data()?.items;a(Array.isArray(t)?t:[])},o)}async function a(t,i,a){await n(e(r,`users`,t,`lists`,i),{items:a})}export{a as saveAccountList,i as watchAccountList};
