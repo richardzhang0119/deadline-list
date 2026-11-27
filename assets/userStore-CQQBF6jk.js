@@ -1,0 +1,1 @@
+import{i as e,r as t,s as n,t as r}from"./firestore-BoRriaTV.js";function i(e,i,a,o){return t(n(r,`users`,e,`lists`,i),e=>{let t=e.data()?.items;a(Array.isArray(t)?t:[])},o)}async function a(t,i,a){await e(n(r,`users`,t,`lists`,i),{items:a})}export{a as saveAccountList,i as watchAccountList};
